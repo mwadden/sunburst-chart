@@ -81,7 +81,7 @@ class SunburstWidget {
     this.d3vis
       .attr('width', this.visualizationWidth)
       .attr('height', this.visualizationHeight)
-      .attr('viewBox', '0 0 ' + this.dimH + ', ' + this.dimW);
+      .attr('viewBox', '0 -25 ' + this.dimW + ' ' + (this.dimH + 25));
   }
 
   clear() {
